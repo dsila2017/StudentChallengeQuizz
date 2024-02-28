@@ -11,6 +11,17 @@
 		638368192B8BCE3300D7D8BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368182B8BCE3300D7D8BA /* ContentView.swift */; };
 		6383681B2B8BCE3400D7D8BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6383681A2B8BCE3400D7D8BA /* Assets.xcassets */; };
 		6383681E2B8BCE3400D7D8BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6383681D2B8BCE3400D7D8BA /* Preview Assets.xcassets */; };
+		638368252B8BCE5E00D7D8BA /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368242B8BCE5E00D7D8BA /* QuestionView.swift */; };
+		638368272B8BCE8200D7D8BA /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368262B8BCE8200D7D8BA /* Questions.swift */; };
+		638368292B8BD7EE00D7D8BA /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368282B8BD7EE00D7D8BA /* QuestionViewModel.swift */; };
+		6383682B2B8BE19100D7D8BA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383682A2B8BE19100D7D8BA /* Result.swift */; };
+		6383682F2B8BEC7300D7D8BA /* DepressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383682E2B8BEC7300D7D8BA /* DepressionView.swift */; };
+		638368312B8BF22C00D7D8BA /* AnxietyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368302B8BF22C00D7D8BA /* AnxietyView.swift */; };
+		638368342B8BFA3600D7D8BA /* AnxietyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368332B8BFA3600D7D8BA /* AnxietyResult.swift */; };
+		638368362B8BFE0E00D7D8BA /* PTSDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368352B8BFE0E00D7D8BA /* PTSDView.swift */; };
+		638368392B8BFFFB00D7D8BA /* PTSDResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638368382B8BFFFB00D7D8BA /* PTSDResult.swift */; };
+		6383683B2B8C037200D7D8BA /* AddictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383683A2B8C037200D7D8BA /* AddictionView.swift */; };
+		6383683E2B8C039200D7D8BA /* AddictionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6383683D2B8C039200D7D8BA /* AddictionResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		638368182B8BCE3300D7D8BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6383681A2B8BCE3400D7D8BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6383681D2B8BCE3400D7D8BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		638368242B8BCE5E00D7D8BA /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		638368262B8BCE8200D7D8BA /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		638368282B8BD7EE00D7D8BA /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		6383682A2B8BE19100D7D8BA /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		6383682E2B8BEC7300D7D8BA /* DepressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionView.swift; sourceTree = "<group>"; };
+		638368302B8BF22C00D7D8BA /* AnxietyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyView.swift; sourceTree = "<group>"; };
+		638368332B8BFA3600D7D8BA /* AnxietyResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnxietyResult.swift; sourceTree = "<group>"; };
+		638368352B8BFE0E00D7D8BA /* PTSDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTSDView.swift; sourceTree = "<group>"; };
+		638368382B8BFFFB00D7D8BA /* PTSDResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTSDResult.swift; sourceTree = "<group>"; };
+		6383683A2B8C037200D7D8BA /* AddictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddictionView.swift; sourceTree = "<group>"; };
+		6383683D2B8C039200D7D8BA /* AddictionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddictionResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,13 @@
 			children = (
 				638368162B8BCE3300D7D8BA /* StudentChallengeQuizzApp.swift */,
 				638368182B8BCE3300D7D8BA /* ContentView.swift */,
+				6383683C2B8C037700D7D8BA /* AddictionPage */,
+				638368372B8BFFD200D7D8BA /* PTSDPage */,
+				638368322B8BF23000D7D8BA /* AnxietyPage */,
+				6383682D2B8BEC5100D7D8BA /* DepressionPage */,
+				638368402B8C0B0300D7D8BA /* Components */,
+				6383683F2B8C0A3900D7D8BA /*  ViewModel */,
+				6383682C2B8BEC4600D7D8BA /* Model */,
 				6383681A2B8BCE3400D7D8BA /* Assets.xcassets */,
 				6383681C2B8BCE3400D7D8BA /* Preview Content */,
 			);
@@ -65,6 +94,66 @@
 				6383681D2B8BCE3400D7D8BA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6383682C2B8BEC4600D7D8BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				638368262B8BCE8200D7D8BA /* Questions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6383682D2B8BEC5100D7D8BA /* DepressionPage */ = {
+			isa = PBXGroup;
+			children = (
+				6383682E2B8BEC7300D7D8BA /* DepressionView.swift */,
+				6383682A2B8BE19100D7D8BA /* Result.swift */,
+			);
+			path = DepressionPage;
+			sourceTree = "<group>";
+		};
+		638368322B8BF23000D7D8BA /* AnxietyPage */ = {
+			isa = PBXGroup;
+			children = (
+				638368302B8BF22C00D7D8BA /* AnxietyView.swift */,
+				638368332B8BFA3600D7D8BA /* AnxietyResult.swift */,
+			);
+			path = AnxietyPage;
+			sourceTree = "<group>";
+		};
+		638368372B8BFFD200D7D8BA /* PTSDPage */ = {
+			isa = PBXGroup;
+			children = (
+				638368352B8BFE0E00D7D8BA /* PTSDView.swift */,
+				638368382B8BFFFB00D7D8BA /* PTSDResult.swift */,
+			);
+			path = PTSDPage;
+			sourceTree = "<group>";
+		};
+		6383683C2B8C037700D7D8BA /* AddictionPage */ = {
+			isa = PBXGroup;
+			children = (
+				6383683A2B8C037200D7D8BA /* AddictionView.swift */,
+				6383683D2B8C039200D7D8BA /* AddictionResult.swift */,
+			);
+			path = AddictionPage;
+			sourceTree = "<group>";
+		};
+		6383683F2B8C0A3900D7D8BA /*  ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				638368282B8BD7EE00D7D8BA /* QuestionViewModel.swift */,
+			);
+			path = " ViewModel";
+			sourceTree = "<group>";
+		};
+		638368402B8C0B0300D7D8BA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				638368242B8BCE5E00D7D8BA /* QuestionView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +226,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638368392B8BFFFB00D7D8BA /* PTSDResult.swift in Sources */,
+				6383682B2B8BE19100D7D8BA /* Result.swift in Sources */,
+				638368312B8BF22C00D7D8BA /* AnxietyView.swift in Sources */,
 				638368192B8BCE3300D7D8BA /* ContentView.swift in Sources */,
+				638368362B8BFE0E00D7D8BA /* PTSDView.swift in Sources */,
+				6383683E2B8C039200D7D8BA /* AddictionResult.swift in Sources */,
+				638368272B8BCE8200D7D8BA /* Questions.swift in Sources */,
+				638368342B8BFA3600D7D8BA /* AnxietyResult.swift in Sources */,
+				638368292B8BD7EE00D7D8BA /* QuestionViewModel.swift in Sources */,
+				6383683B2B8C037200D7D8BA /* AddictionView.swift in Sources */,
+				6383682F2B8BEC7300D7D8BA /* DepressionView.swift in Sources */,
+				638368252B8BCE5E00D7D8BA /* QuestionView.swift in Sources */,
 				638368172B8BCE3300D7D8BA /* StudentChallengeQuizzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
